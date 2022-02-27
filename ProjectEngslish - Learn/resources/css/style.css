@@ -11,3 +11,44 @@ html{
     background-color: #ffffff;
     text-rendering: optimizeLegibility; /*Cách hiển thị chữ: Làm sao hiển thị tốt nhất*/
 }
+
+.clearfix::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+/*-----------------------HEADER-----------------------*/
+.logo{
+    width: 350px;    
+    float: left;
+    margin-left: 70px;
+    margin-top: -50px;
+}
+
+.linkheader{
+    float: right;
+    list-style: none;
+}
+
+.linkheader li{
+    display: inline-block;
+}
+
+.linkheader li a{
+    text-decoration: none;
+}
+
+header{
+    background-image: url("../img/background4.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /*view height*/
+    background-attachment: fixed;
+}
+
+.row{
+    width: 1000px; 
+    /*Đặt set là 1140 mục đích là để tăng cái độ rộng của cái box. Nếu center thì nó sẽ đúng với đề bài hơn.*/
+    margin: 0 auto;
+}
