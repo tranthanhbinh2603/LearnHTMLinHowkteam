@@ -11,3 +11,7 @@ html{
     background-color: white;
     text-rendering: optimizeLegibility;
 }
+
+.Logo{
+    height: 100px;
+}
