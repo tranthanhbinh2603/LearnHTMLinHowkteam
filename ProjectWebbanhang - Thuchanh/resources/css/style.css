@@ -12,6 +12,59 @@ html{
     text-rendering: optimizeLegibility;
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+header{
+    background-image: linear-gradient(45deg, rgba(246, 110, 19,0.75), rgba(255, 188, 128,0.75)), url("../img/backgr1.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /*view height*/
+    background-attachment: fixed;
+}
+
 .Logo{
     height: 100px;
+    float: left;
 }
+
+
+.navLinkHeader{
+    float: right;
+    list-style-type: none;
+    
+}
+
+.navLinkHeader li{
+    display: inline-block; /*List hiển thị dưới dạng hàng ngang*/
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.navLinkHeader li a{
+    color: #81463e;
+    font-size: 20px;
+    text-decoration: none;
+    transition: border-bottom 0.3s;
+}
+
+.boxheader{
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.boxheader p{
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.navLinkHeader li a:hover, .navLinkHeader li a:active{
+    border-bottom: 1px solid;
+}
+
+
+
