@@ -12,10 +12,63 @@ html{
     text-rendering: optimizeLegibility; /*Cách hiển thị chữ: Làm sao hiển thị tốt nhất*/
 }
 
+
+
+/*-------------------------REUSAUBLE COMPONENT------------------*/
+/*------------Thứ xài đi xài lại nhiều lần----------------------*/
 .clearfix::after{
     content: " ";
     display: table;
     clear: both;
+}
+
+.btn{
+    padding: 15px 30px;
+    margin: 0 5px;
+    border-radius: 20px;
+    background-color: #e67e22;
+    display: inline-block; /*Thừa hưởng thuộc tính của cả inline và block*/
+    width: 190px;
+    text-align: center;
+
+    text-decoration: none;
+    color: white;
+    
+    transition: all .3s; /*Set nhiều thuộc tính nhanh chóng*/
+}
+
+.btn:hover, .btn:active{
+    background-color: #d35400;
+}
+
+.row{
+    max-width: 1000px; 
+    /*Đặt set là 1140 mục đích là để tăng cái độ rộng của cái box. Nếu center thì nó sẽ đúng với đề bài hơn.*/
+    margin: 0 auto;
+}
+
+
+h1{
+    text-transform: uppercase; /*In hoa, lowercase là in thường*/
+    font-size: 300%; /*Chỉnh reponsive dễ hơn*/
+    color: white;
+    margin-bottom: 50px;
+
+    font-weight: 400;
+
+    letter-spacing: 1px; /*Khoảng cách giữa các chữ cái*/
+    word-spacing: 10px; /*Khoảng cách giữa các từ*/
+    line-height: 135%; /*Khoảng cách giữa các dòng*/
+}
+
+h2{
+    text-align: center;
+    margin: 20px;
+    color: #e67e22;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 180%;
+    font-weight: 700;
 }
 
 /*-----------------------HEADER-----------------------*/
@@ -58,36 +111,18 @@ header{
     background-attachment: fixed;
 }
 
-.row{
-    max-width: 1000px; 
-    /*Đặt set là 1140 mục đích là để tăng cái độ rộng của cái box. Nếu center thì nó sẽ đúng với đề bài hơn.*/
-    margin: 0 auto;
-}
-
 .heading-main-row{
     /*Kĩ thuật dịch khối căn giữa*/
     width: 1000px; /*Vẫn phải set*/
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); /*Dịch chuyển khối theo chiều dọc và chiều ngang*/
+    transform: translate(-45%, -55%); /*Dịch chuyển khối theo chiều dọc và chiều ngang*/
 }
 
-.heading-main-text{
-    text-transform: uppercase; /*In hoa, lowercase là in thường*/
-    font-size: 300%; /*Chỉnh reponsive dễ hơn*/
-    color: white;
-    padding-bottom: 20px;
-}
+/*---------------------------ABOUT US------------------------------*/
 
-.heading-main-row a{
-    padding-top: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 10px;
-    border-radius: 5px;
-    background-color: orange;
 
-    text-decoration: none;
-    color: white;
+.p-long{
+    text-align: center;
 }
