@@ -47,16 +47,18 @@ html{
     margin: 0 auto;
 }
 
+h1,h2{
+    text-transform: uppercase; /*In hoa, lowercase là in thường*/
+    letter-spacing: 1px; /*Khoảng cách giữa các chữ cái*/
+}
 
 h1{
-    text-transform: uppercase; /*In hoa, lowercase là in thường*/
+    
     font-size: 300%; /*Chỉnh reponsive dễ hơn*/
     color: white;
     margin-bottom: 50px;
-
     font-weight: 400;
-
-    letter-spacing: 1px; /*Khoảng cách giữa các chữ cái*/
+    
     word-spacing: 10px; /*Khoảng cách giữa các từ*/
     line-height: 135%; /*Khoảng cách giữa các dòng*/
 }
@@ -65,10 +67,19 @@ h2{
     text-align: center;
     margin: 20px;
     color: #e67e22;
-    text-transform: uppercase;
-    letter-spacing: 1px;
     font-size: 180%;
     font-weight: 700;
+}
+
+/*Tạo dòng kẻ bằng after*/
+h2:after{
+    content: " ";
+    display: block;
+    width: 150px;
+    height: 2px;
+    background-color: rgba(232, 127, 36, 0.5); 
+    margin: 0 auto;
+    margin-top: 5px;
 }
 
 /*-----------------------HEADER-----------------------*/
