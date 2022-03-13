@@ -42,7 +42,7 @@ html{
 }
 
 .row{
-    max-width: 1000px; 
+    max-width: 1140px; 
     /*Đặt set là 1140 mục đích là để tăng cái độ rộng của cái box. Nếu center thì nó sẽ đúng với đề bài hơn.*/
     margin: 0 auto;
 }
@@ -81,6 +81,22 @@ h2:after{
     margin: 0 auto;
     margin-top: 5px;
 }
+
+.p-long{
+    text-align: center;
+    color: #265077;
+    font-size: 22px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 70%;
+    margin-left: 15%; /*Bắt buộc phải định nghĩa thế này vì ở trên đã có định nghĩa margin rồi*/
+    /*Mà margin left = 15%, width 70%, thì margin right không cần set cũng là 15%, đúng*/
+}
+
+section{
+    padding: 50px;
+}
+
 
 /*-----------------------HEADER-----------------------*/
 .logo{
@@ -132,8 +148,7 @@ header{
 }
 
 /*---------------------------ABOUT US------------------------------*/
-
-
-.p-long{
-    text-align: center;
+.about-picture img{
+    width: 90%;
 }
+
