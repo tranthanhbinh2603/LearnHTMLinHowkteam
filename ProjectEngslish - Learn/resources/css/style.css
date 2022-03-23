@@ -34,7 +34,7 @@ html{
     text-decoration: none;
     color: white;
     
-    transition: all .3s; /*Set nhiều thuộc tính nhanh chóng*/
+    transition: all 0.3s; /*Set nhiều thuộc tính nhanh chóng*/
 }
 
 .btn:hover, .btn:active{
