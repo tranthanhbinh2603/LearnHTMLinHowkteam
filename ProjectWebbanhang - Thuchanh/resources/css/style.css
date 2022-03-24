@@ -12,10 +12,18 @@ html{
     text-rendering: optimizeLegibility;
 }
 
+/*****************Những thuộc tính dùng lại nhiều lần******************/
+
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
+}
+
+.p-long{
+    font-size: 150%;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 header{
@@ -70,7 +78,7 @@ header{
     width: 200px;
     background-color: #FF6B6B;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     border-radius: 10px;
     box-sizing: inline;
     text-decoration: none;
@@ -95,4 +103,23 @@ header{
     max-width: 1140px; 
     /*Đặt set là 1140 mục đích là để tăng cái độ rộng của cái box. Nếu center thì nó sẽ đúng với đề bài hơn.*/
     margin: 0 auto;
+}
+
+.aboutus-header{
+    font-size: 200%;
+    text-align: center;
+    color: rgb(216, 113, 17);
+    margin-top: 70px;
+    text-transform: uppercase;
+}
+
+.aboutus-header::after{
+    content: " ";
+    display: block;
+    height: 2px;
+    background-color: rgb(255, 159, 69);
+    width: 130px;        
+    margin: 0 auto;
+    margin-top: 8px;
+    margin-bottom: 30px;
 }
