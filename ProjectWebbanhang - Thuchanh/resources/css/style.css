@@ -73,7 +73,7 @@ header{
     line-height: 135%; 
 }
 
-.boxheader a{
+.link{
     display: inline-block;
     width: 200px;
     background-color: #FF6B6B;
@@ -149,3 +149,7 @@ header{
     opacity: 1;
 }
 
+.about-picture:hover img,
+.about-picture:active img{  
+    filter: blur(3px) brightness(55%);
+}
