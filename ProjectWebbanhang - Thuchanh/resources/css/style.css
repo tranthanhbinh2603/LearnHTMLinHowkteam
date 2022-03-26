@@ -26,6 +26,17 @@ html{
     margin-bottom: 20px;
 }
 
+h3{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: rgb(246, 110, 19);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 130%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
 header{
     background-image: linear-gradient(45deg, rgba(246, 110, 19,0.75), rgba(255, 188, 128,0.75)), url("../img/backgr1.png");
     background-size: cover;
@@ -33,6 +44,7 @@ header{
     height: 100vh; /*view height*/
     background-attachment: fixed;
 }
+
 
 .Logo{
     height: 100px;
@@ -153,3 +165,14 @@ header{
 .about-picture:active img{  
     filter: blur(3px) brightness(55%);
 }
+
+/***************************PRODUCT*************************/
+.products-section{
+    background-color: #f1eeeee5;
+}
+
+.product-box{
+    background-color: rgb(202, 198, 198);
+}
+
+
