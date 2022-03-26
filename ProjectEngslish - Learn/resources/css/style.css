@@ -93,8 +93,27 @@ h2:after{
     /*Mà margin left = 15%, width 70%, thì margin right không cần set cũng là 15%, đúng*/
 }
 
+h3{
+    background-color: #265077;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-transform: uppercase;
+    font-size: 130%;
+    margin-bottom: 15px;
+}
+
 section{
     padding: 50px;
+}
+
+.small-icon{
+    color: #305679;
+    font-size: 130%;
+    margin-right: 10px;
 }
 
 
@@ -195,21 +214,39 @@ header{
 }
 
 .product-box{
-    background-color: #e1e3f1;
+    background-color: #eeefff;
+    box-shadow: 3px 5px 10px #e0e0e0;
     border-radius: 20px;
-}
+    width: 90%;
+    height: 370px;
 
-.product-box h3{
-    background-color: #1d466f;
-    color: #ffffff;
-    text-align: center;
-    padding: 20px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    text-transform: uppercase;
-    font-size: 130%;
 }
 
 .product-box ul{
     list-style-type: none;
+}
+
+.product-box p{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    color: #265077;
+    font-size: 250%;
+    font-weight: 300;
+}
+
+.product-box span{
+    font-size: 80%;
+}
+
+.product-box li{
+    margin-left: 20%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.product-box .btn{
+    display: inline-block;
+    width: 60%;
+    margin-left: 23%;
 }

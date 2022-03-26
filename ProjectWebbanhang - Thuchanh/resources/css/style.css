@@ -95,6 +95,10 @@ header{
     border-bottom: 1px solid;
 }
 
+.about-picture{
+    position: relative;
+}
+
 .about-picture img{
     width: 90%;
 }
@@ -105,7 +109,7 @@ header{
     margin: 0 auto;
 }
 
-.aboutus-header{
+.header-section{
     font-size: 200%;
     text-align: center;
     color: rgb(216, 113, 17);
@@ -113,7 +117,7 @@ header{
     text-transform: uppercase;
 }
 
-.aboutus-header::after{
+.header-section::after{
     content: " ";
     display: block;
     height: 2px;
@@ -123,3 +127,25 @@ header{
     margin-top: 8px;
     margin-bottom: 30px;
 }
+
+.about-us-picture-title{
+    color:white;
+    opacity: 0;
+    transition: 0.7s;
+}
+
+.align-1, .align-2{
+    position: absolute;
+    transform: translate(90%, -300%);
+}
+
+.align-3, .align-4{
+    position: absolute;
+    transform: translate(55%, -300%);
+}
+
+.about-picture:hover .about-us-picture-title,
+.about-picture:active .about-us-picture-title{  
+    opacity: 1;
+}
+
