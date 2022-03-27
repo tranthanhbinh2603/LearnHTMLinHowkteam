@@ -27,15 +27,27 @@ html{
 }
 
 h3{
-    padding-top: 10px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 10px;
     background-color: rgb(246, 110, 19);
     text-align: center;
     text-transform: uppercase;
     font-size: 130%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-transform: uppercase;
 }
+
+.header-section{
+    font-size: 200%;
+    text-align: center;
+    color: rgb(216, 113, 17);
+    margin-top: 70px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+/*********************HEADER**************************/
 
 header{
     background-image: linear-gradient(45deg, rgba(246, 110, 19,0.75), rgba(255, 188, 128,0.75)), url("../img/backgr1.png");
@@ -99,6 +111,10 @@ header{
     transition: all 0.1s;
 }
 
+.link:hover, .link:active{
+    background-color: #bd2525;
+}
+
 .boxheader a:hover, .boxheader a:active{
     background-color: #bd2525;
 }
@@ -121,13 +137,7 @@ header{
     margin: 0 auto;
 }
 
-.header-section{
-    font-size: 200%;
-    text-align: center;
-    color: rgb(216, 113, 17);
-    margin-top: 70px;
-    text-transform: uppercase;
-}
+
 
 .header-section::after{
     content: " ";
@@ -173,6 +183,35 @@ header{
 
 .product-box{
     background-color: rgb(202, 198, 198);
+    border-radius: 20px; /*Phải bo để phù hợp với h3*/
+    box-shadow: 3px 5px 10px rgb(202, 198, 198);
 }
 
+.product-box p{
+    text-align: center;
+    font-size: 300%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
+.product-box span{
+    font-size: 80%;
+}
+
+.product-box ul{
+    list-style: none;
+}
+
+.product-box li{
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.product-box .small-icon{
+    margin-right: 10px;
+}
+
+.product-box .link{
+    margin-left: 13%;
+}
