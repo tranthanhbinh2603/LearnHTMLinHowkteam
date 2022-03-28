@@ -250,3 +250,36 @@ header{
     width: 60%;
     margin-left: 23%;
 }
+
+/*---------------------------TESTIMONIALS-----------------------------*/
+.testimonials-section{
+    background-image: linear-gradient(45deg,rgba(2,33,64, 0.8) 55%,rgba(45,95,93,0.8)), url("../img/background2.jpeg"); 
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.testimonials-section h2{ 
+    margin-bottom: 70px;
+}
+
+.testimonials-section blockquote{
+    color:#ffffff;
+    margin-bottom: 60px;
+    font-style: italic;
+    line-height: 140%;
+}
+
+.testimonials-section img{
+    width: 100px;
+    display: block;
+    float: left;
+    border-radius: 50%;
+    border: 2px soild #265077;
+}
+
+.testimonials-section cite{
+    color: #577fa3;
+    
+    
+}
