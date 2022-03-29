@@ -263,23 +263,31 @@ header{
     margin-bottom: 70px;
 }
 
-.testimonials-section blockquote{
+blockquote{
     color:#ffffff;
     margin-bottom: 60px;
     font-style: italic;
     line-height: 140%;
 }
 
-.testimonials-section img{
-    width: 100px;
-    display: block;
-    float: left;
-    border-radius: 50%;
-    border: 2px soild #265077;
+blockquote::before{
+   content: "\201C";
+   /*https://css-tricks.com/snippets/html/glyphs/*/
+   display: block;
+   font-size: 400%;
 }
 
-.testimonials-section cite{
+cite{
+    position: relative;
+    width: 95%;
     color: #577fa3;
-    
-    
+    display: block;
+    margin-top: 25px;
+}
+
+cite img{
+    width: 100px; 
+    border-radius: 50%;
+    border: 2px soild #265077;
+    vertical-align: middle;
 }
