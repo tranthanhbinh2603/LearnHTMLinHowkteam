@@ -294,3 +294,71 @@ cite img{
     border: 2px soild #265077;
     vertical-align: middle;
 }
+
+/*---------------------------SPONSOR SECTIONS-----------------------------*/
+.sponsors-section{
+    background-color: #f4f4f4;
+}
+
+.sponsors-section h2{
+    margin-bottom: 50px;
+}
+
+.sponsors-showcase{
+    margin-left: 8%;
+}
+
+.logo-sponsor{
+    width: 140px;
+}
+
+.sponsors-section li{
+    list-style: none;
+    display: inline-block; /*Chỉnh lại hàng hiển thị trên cùng 1 hàng. */
+    /*Có 1 cách nữa: float: left và clearfix class*/
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+figcaption{
+    color: #265077;
+    font-weight: 900;
+    font-size: 120%;
+    cursor: pointer;
+}
+
+.logo-sponsor{
+    transition: transform .3s;
+    cursor: pointer; /*Chỉnh kiểu hình con chuột*/
+}
+
+.logo-sponsor:hover, .logo-sponsor:active{
+    transform: scale(1.2);
+}
+
+/*---------------------------CONTACT-FORM-----------------------------*/
+.contact-section{
+    background-image: linear-gradient(45deg,rgba(2,33,64, 0.8) 55%,rgba(45,95,93,0.8)), url("../img/background5.jpeg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.information{
+    list-style-type: none;
+
+}
+
+.social-icon{
+    list-style: none;
+    display: inline-block;
+}
+
+/*---------------------------FOOTER-SECTIONS-----------------------------*/
+footer{
+    text-align: center;
+    background-color: #5a5a5a;
+    color: white;
+    padding: 20px;
+}
