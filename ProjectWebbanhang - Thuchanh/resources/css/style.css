@@ -215,3 +215,11 @@ header{
 .product-box .link{
     margin-left: 13%;
 }
+
+/************FEATURES SECTIONS************/
+.features-section{
+    background-image: linear-gradient(45deg, rgba(246, 110, 19,0.75), rgba(255, 188, 128,0.75)), url("../img/backgr2.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
