@@ -223,3 +223,15 @@ header{
     background-position: center;
     background-attachment: fixed;
 }
+
+.features-section ul{
+    list-style: none;
+}
+
+.features-section ul, li{
+    display: inline;
+}
+
+.features-section object{
+    width: 20%;
+}
