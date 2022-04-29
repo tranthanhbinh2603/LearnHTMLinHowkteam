@@ -245,3 +245,28 @@ header{
     margin-top: 10px;
     margin-bottom: 30px;
 }
+
+
+/**------------SPONSOR SETION-------------**/
+.sponsor-section img{
+    width: 150px;
+    transition: all .3s;
+}
+
+.sponsor-section ul{
+    margin-left: 23%;
+}
+
+.sponsor-section li{
+    float: left;
+    margin-right: 75px;
+}
+
+.sponsor-section figcaption{
+    text-align: center;
+    font-weight: 800;
+}
+
+.sponsor-section img:hover, .sponsor-section img:active{
+    transform: scale(1.2);
+}
