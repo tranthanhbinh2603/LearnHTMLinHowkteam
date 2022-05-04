@@ -293,9 +293,19 @@ header{
     display: inline-block;
 }
 
+.information li{
+    margin-top: 70px;
+    word-spacing: 1px;
+}
+
+.information .small-icon{
+    margin-right: 5px;
+}
+
 /******FOOTER SECTION*******/
 .footer-section p{
     text-align: center;
     padding: 10px;
     background-color: gray;
 }
+

@@ -389,6 +389,64 @@ figcaption{
 /*******FORM************/
 form{
     background-color: rgb(0, 0, 0, .4);
+    margin-left: 40%;
+    width: 60%;    
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+form .row{
+    margin-bottom: 20px;
+}
+
+label{
+    font-size: 150%;
+    color: white;
+}
+
+textarea{
+    resize: none;
+    height: 100px;
+    width: 170px;
+}
+
+input, textarea{
+    outline: none;
+    padding: 10px;
+    background-color: rgb(48, 47, 47, .3);
+    border: 1px soild rgb(70, 68, 68, .7);
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    width: 100px;
+}
+
+input{
+    height: 50px;    
+}
+
+input[type=text], input[type=email], textarea{
+    width: 90%;
+    font-size: 100%;
+    transition: all .3s;
+}
+
+input[type=text], input[type=email]:focus, textarea
+{
+    color: white;
+    background-color: rgb(48, 47, 47, .8);
+
+}
+
+form .row:last-child{
+    text-align: center;
+}
+
+input[type=submit]{
+    font-weight: 700;
+    font-size: 100%;
+    border-radius: 5px;
+    width: 60%;
 }
 
 /*---------------------------FOOTER-SECTIONS-----------------------------*/
