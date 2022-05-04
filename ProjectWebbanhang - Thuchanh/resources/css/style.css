@@ -49,6 +49,10 @@ h3{
     font-weight: 900;
 }
 
+section{
+    padding-bottom: 20px;
+}
+
 /*********************HEADER**************************/
 
 header{
@@ -247,7 +251,7 @@ header{
 }
 
 
-/**------------SPONSOR SETION-------------**/
+/**------------SPONSOR SECTION-------------**/
 .sponsor-section img{
     width: 150px;
     transition: all .3s;
@@ -269,4 +273,29 @@ header{
 
 .sponsor-section img:hover, .sponsor-section img:active{
     transform: scale(1.2);
+}
+
+/**CONTACT SECTION**/
+.contact-section{
+    background-color: white;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.information{
+    list-style-type: none;
+
+}
+
+.social-icon{
+    list-style: none;
+    display: inline-block;
+}
+
+/******FOOTER SECTION*******/
+.footer-section p{
+    text-align: center;
+    padding: 10px;
+    background-color: gray;
 }
