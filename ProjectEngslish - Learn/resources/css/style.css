@@ -12,6 +12,11 @@ html{
     text-rendering: optimizeLegibility; /*Cách hiển thị chữ: Làm sao hiển thị tốt nhất*/
 }
 
+body 
+{
+    overflow-x: hidden;
+}
+
 
 
 /*-------------------------REUSAUBLE COMPONENT------------------*/
