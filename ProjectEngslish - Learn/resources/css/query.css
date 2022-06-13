@@ -43,12 +43,97 @@
  
 /* Small phones to small tablets */
 @media only screen and (max-width: 767px){
-  
+    .col 
+    {
+        width : 100%;
+    }
+    
+    .linkheader
+    {
+        visibility: hidden;
+    }
+
+    .logo
+    {width: 250px;}
+
+    h1 {
+        word-spacing: 2px;
+        font-size: 250%;
+    }
+
+    .heading-main-box{
+        transform: translate(-15%, -50%);
+    }
+
+    .heading-main-box .btn{
+        width: 15%;
+    }
+
+    .about-picture {
+        text-align: center;
+    }
+
+    .picture-title{
+        font-size: 30px;
+    }
+
+    .product-box{
+        width: 60%;
+        margin-left: 20%;
+    }
+    
+    figcaption
+    {
+        visibility: hidden;
+    }
+
+    form{
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    label{
+        margin-left: 35%;
+    }
+
+    .information{
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .information .li{
+        font-size: 20px;
+    }
+
+    .social-icon{
+        margin-left: 30%;
+    }
 }
+
  
 /* Small phones from 0 to 480px; */
 @media only screen and (max-width: 480px){
-   
- 
+   html{
+       font-size: 12px;
+   }
+
+   .logo{
+       width: 220px;
+       margin-top: 10%;
+       margin-left: 20%;
+   }
+
+   .heading-main-row{
+     transform: translate(-20%, -50%);
+   }
+   .heading-main-row .btn{
+        display: block;
+        margin-bottom: 20px;
+        text-align: center;
+   } 
+
+   .social-icon{
+        margin-left: 20%;
+    }
 }
 
